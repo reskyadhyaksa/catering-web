@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAteriNgz</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <section class="container">
+        <div class="parent-photo">
+            <img src="assets/signup.jpg" alt="Sign Up Picture"/>
+        </div>
+        <div class="parent-form">
+            <div class="text-register">
+                <div>
+                    <h2>Sign Up</h2>
+                    <p>Please fill in the form completely</p>
+                </div>
+                <img src="assets/logo.png" alt="Logo CateringZ"/>
+            </div>
+            <form class="form-signup">
+                <div class="child-form-name">
+                    <div class="first">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="firstName" placeholder="Enter your first name here" required>
+                    </div>
+                    <div class="last">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="lastName" placeholder="Enter your last name here" required>
+                    </div>
+                </div>
+                
+                <div class="child-form">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Enter your email here" required>
+                </div>
+
+                <div class="child-form">
+                    <label for="password">Password</label>
+                    <input type="text" id="password" name="password" placeholder="Enter your password here" required>
+                </div>
+                
+                <div class="child-gender">
+                    <section>
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" id="dob" name="dob" required>
+                    </section>
+                    <section>
+                        <label for="gender">Gender</label>
+                        <div class="gender-group">
+                            <div class="gender-option">
+                                <input type="radio" id="male" name="gender" value="male" required>
+                                <label for="male">Male</label>
+                            </div>
+                            <div class="gender-option">
+                                <input type="radio" id="female" name="gender" value="female" required>
+                                <label for="female">Female</label>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </form>
+
+            <div class="checklist">
+                <input type="checkbox" id="agree" name="agree" value="true"><span class="checkmark"></span>
+                <p>I agree to the CAteriNgz <span>Software and Services Agreement</span></p>
+            </div>
+
+            <a class="regbutton" href="home.html">Register</a>
+        </div>
+    </section>
+</body>
+</html>

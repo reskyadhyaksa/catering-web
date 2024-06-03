@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Root Styling */
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #C00000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    color: #C00000;
+}
+
+/* Main Container */
+.container{
+    height: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 9px 20px #00000090;
+}
+
+/** Right Area --Form-- */
+.parent-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 50px;
+    background-color: #F8F9FC;
+    height: 100%;
+    border-radius: 0px 20px 20px 0px;
+}
+
+
+.form-signup input{
+    outline: none;
+    border: solid 0px transparent;
+    background-color: transparent;
+    border-radius: 5px;
+    height: 48px;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.form-signup input::placeholder{
+    color: #DE3C3C;
+    font-size: 12px;
+}
+
+.form-signup label{
+    font-weight: 500;
+}
+
+.form-signup{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.child-form{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    width: 100%;
+}
+
+.child-form-name{
+    display: flex;
+    font-size: 18px;
+    width: 100%;
+    gap: 20px;
+}
+
+.child-form-name div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.checklist{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+    font-size: 12px;
+    margin-top: 23px;
+}
+
+.checklist p{
+    font-weight: 600;
+}
+
+.checklist input[type=checkbox]{
+    accent-color: #C00000;
+}
+
+.text-register{
+    display: flex;
+    align-items: center;
+    color: #C00000;
+}
+
+.text-register div{
+    margin-right: 38px;
+}
+.text-register h2{
+    font-size: 44px;
+}
+
+.text-register p{
+    font-size: 21px;
+}
+
+.child-gender{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.child-gender section{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.child-gender input[type="date"]::-webkit-calendar-picker-indicator{
+    background-image: url('/assets/calendar.png');
+    background-size: 17px;
+}
+
+.gender-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.gender-option{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px
+}
+
+.gender-option input[type=radio]{
+    accent-color: #C00000;
+    align-self: center;
+}
+
+.regbutton{
+    margin-top: 50px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: large;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    background-color: #C00000;
+}
+
+/** LEFT AREA --IMAGES-- */
+.parent-photo{
+    display: flex;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.parent-photo img{
+    border-radius: 20px 0px 0px 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
